@@ -1,0 +1,61 @@
+.block_notify {
+  display: flex;
+  flex-direction: column;
+  border-style: soild;
+  max-width: 950px;
+  border-color: rgb(215, 213, 213);
+  border-radius: 3px;
+  border-width: 0.8px;
+  box-shadow: 0px 0.05px 5px rgba(192,186,186,5);
+  padding-top: 7px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.head_notify {
+  color: rgb(171, 167, 167);
+  font-family: roboto,arial;
+  font-size: 12px;
+  margin-bottom: 17px;
+}
+.content_notify {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-top: 0.5px rgb(216, 216, 216) solid;
+  padding-top: 10px;
+}
+.profile_notify {
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+}
+.title_notify {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+.a_notify {
+  font-family: Arial;
+}
+.b_notify {
+  font-family: Arial;
+  color: rgb(179, 177, 177);
+  font-size: 13px;
+  font-weight: bold;
+}
+.heading_notify {
+  font-family: arial;
+  font-size: 13.7px;
+  margin-bottom: 4px;
+}
+.text_notify {
+  font-family: Arial;
+  color: rgb(169, 166, 166);
+  font-size: 13.5px;
+}
+.contents_notify {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}

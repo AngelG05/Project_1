@@ -1,0 +1,124 @@
+.profile_following {
+  border-radius: 50px;
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.flexbox_following {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  border-width: 1px;
+  border-color: rgb(198, 198, 198);
+  border-style: solid;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 110px;
+  max-width: 700px;
+}
+.button_following {
+  background-color: rgb(85,91,249);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right:10px;
+}
+.button_following:hover {
+  cursor: pointer;
+}
+
+.heading_following {
+  font-size: 20px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: black;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color: rgb(85,91,249);
+  margin-top: 60px;
+}
+
+.text_following {
+  width: 100%;
+}
+
+.name_following {
+  font-size: 14px;
+  margin-bottom: 2px;
+  font-family: arial;
+}
+
+.popular_following {
+  color: rgb(163, 162, 162);
+  font-size: 13px;
+}
+
+.profile_suggestion {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: solid;
+  color: rgb(180, 178, 178);
+  border-width: 0px 1px 1px 0px;
+  padding: 5px;
+}
+
+.suggestions_following {
+  border: solid;
+  border-color: rgb(181, 180, 180);
+  border-width: 0.5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 160px;
+}
+
+.name_suggestion {
+  font-family: arial;
+  padding-top: 10px;
+}
+
+.followers_suggestion {
+  font-family: arial;
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.content_suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Follow_button {
+  background-color: rgb(85,91,249);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 14px;
+  margin-bottom: 10px;
+}
+
+.Follow_button:hover {
+  background-color: rgb(62, 68, 255);
+  cursor: pointer;
+}
+
+.Follow_button:active {
+  opacity: 0.7;
+}
+
+.suggestion {
+  display: flex;
+  justify-content: space-between;
+  max-width: 550px;
+}

@@ -1,0 +1,26 @@
+.content1 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-family: arial;
+  font-size: 14px;
+  display: flex;
+  max-width: 900px;
+}
+
+.discussion2 {
+  margin-bottom: 30px;
+  margin-right: 120px;
+  border: 0.5px;
+  border-color: rgb(238, 237, 237);
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.discuss {
+  text-decoration: none;
+  color: black;
+}

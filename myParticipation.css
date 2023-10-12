@@ -1,0 +1,30 @@
+.main_participation {
+  margin-left: 60px;
+  max-width: 1000px;
+}
+
+.time_participation {
+  color: rgb(85,91,249);
+  font-family: arial;
+  font-size: 14px;
+}
+
+.comment_participation {
+  color: rgb(85,91,249);
+  text-decoration: none;
+  font-family: arial;
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+.vote_participation {
+  color: rgb(85,91,249);
+  font-size: 14px;
+  font-family: arial;
+  margin-right: 8px;
+}
+
+.voting_participation {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,37 @@
+.content_header_post {
+  font-weight: bold;
+  font-family: arial;
+  margin-bottom: 7px;
+  padding-top: 10px;
+}
+
+.heading_post {
+  font-size: 20px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  color: black;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color: rgb(85,91,249);
+  margin-left: 50px;
+}
+
+.myPosts_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post_btn {
+  background-color: rgb(85,91,249);
+  color: white;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 20px;
+}
+
+.post_btn:hover {
+  background-color: rgb(59, 65, 254);
+  cursor: pointer;
+}
+

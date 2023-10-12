@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>
+    SignIn Page
+  </title>
+
+  <link rel="stylesheet" href="signIn.css">
+
+  <script>
+    function pswFunction() {
+      let forgot_psw = alert("Please go over to Back")
+    }
+  </script>
+
+</head>
+
+
+
+<body class="body_sign">
+
+  <div class="main_body">
+
+    <form action="/action_page.php" method="post">
+
+      <div class="sign_in_heading">
+        Sign In/Login
+      </div>
+    
+      <div class="container">
+  
+        <label for="uname">
+            Username
+        </label>
+  
+        <input class="input_signin" type="text" placeholder="Enter Username" name="uname" required>
+    
+  
+        <label for="psw">
+            Password
+        </label>
+  
+        <input class="input_signin" type="password" placeholder="Enter Password" name="psw" required>
+            
+  
+        <button class="button_sign" type="submit">
+          Login
+        </button>
+  
+  
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+  
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+
+        <a href="index.html">
+          <button type="button" class="backbtn">
+            Back
+          </button>
+        </a>
+
+        <button class="forgot_psw" type="button" onclick="pswFunction()">
+          Forgot
+            <a href="#">
+              password?
+            </a>
+          
+        </button>
+  
+      </div>
+    </form>
+
+  </div>
+
+</body>
+
+
+
+</html>
